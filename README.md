@@ -20,6 +20,8 @@ terragrunt init
 ## TODO
 
 
-* Make a VPC module - OK
-* Create an example for using the VPC module - OK
-* Make an ECS module
+- [x] Make a VPC module
+- [ ] Make an ECS module
+- [x] Make a Traefik module
+- [x] Make a ALB module
+- [ ] Create an example for each module
