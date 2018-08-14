@@ -57,6 +57,32 @@ variable "domain_list" {
 }
 
 variable "bastion_key_name" {
-  default   = "dzirg444"
+  default = "dzirg444"
   
 }
+#################################################################
+# ECS CLUSTER VARIABLES
+#################################################################
+variable "ami" {
+  description = "default ami image for eu-cental-1 regions"
+  default = "ami-c7e9e72c"
+}
+variable "instance_type" {
+  description = "ecs instance type"
+  default = ["t2.micro",]
+}
+variable "max_size" {
+  description = "ecs max size instances"
+  default = ["3",]
+}
+variable "min_size" {
+  description = "ecs min size instances"
+  default = ["1",]
+}
+variable "desired_capacity" {
+  description = "ecs desired capacity "
+  default = ["2",]
+  
+}
+
+

@@ -10,3 +10,6 @@
 
 # creds
 credentials.tf
+
+# dev modules
+modules-dev/
